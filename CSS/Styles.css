@@ -1,0 +1,80 @@
+body
+{
+    /*background-image: url(../Assets/GIFs/fbs0kys9j5ja1.gif);
+    background-size: cover;*/
+    background-color: rgb(68, 68, 68);
+    overflow-x: hidden; /* Hide scrollbars */
+}
+.ArcadeScreen
+{
+    background-color: whitesmoke;
+    background-size: cover;
+}
+ul.ulStyling
+{
+    list-style-type: none;
+}  
+#navbarStyling
+{
+    background-color: darkslateblue;
+}
+#BackgroundCover
+{
+    background-size: cover;
+}
+.ArcadeText
+{
+    font-family: "Press Start 2P", sans-serif;
+    line-height: 20px;
+}
+.BodyText
+{
+    font-size: small;
+}
+#Portrait
+{
+    width: 20%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 0;
+}
+@media (max-width: 1024px)
+{
+    #Portrait
+    {
+        width: 40%;
+    }
+}
+@media (max-width: 480px)
+{
+    #Portrait
+    {
+        width: 50%;
+    }
+}
+@keyframes Flicker
+{
+    50%
+    {
+        opacity: 0;
+    }
+}
+.TextFlash
+{
+    animation: Flicker 1s linear infinite; /*Change how the text flash animates.*/
+}
+.AboutTextSpacing
+{
+    line-height: 30px;
+}
+li.ListStyling
+{
+    margin: 20px 0;
+}
+.GameBorder
+{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}

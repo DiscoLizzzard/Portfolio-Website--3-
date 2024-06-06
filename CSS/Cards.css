@@ -1,0 +1,95 @@
+.StageCard
+{
+    width: 200vh; /* default: 18rem*/
+    height: 20vh;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    /*background-image: url(../Assets/Images/Arcade\ Outside.jpg);
+    background-size: cover;*/
+}
+#ProjectsCard
+{
+    background-image: url(../Assets/Images/FightingGameBackgrounds/FightingGameBackground1.png);
+    background-size: cover;
+}
+#ProjectsCard:hover 
+{
+    background-image: url(../Assets/GIFs/FightingGameBackground1.gif);
+    background-size: cover;
+}
+#AnalysisCard
+{
+    background-image: url(../Assets/Images/FightingGameBackgrounds/FightingGameBackground5.png);
+    background-size: cover;
+}
+#AnalysisCard:hover
+{
+    background-image: url(../Assets/GIFs/FightingGameBackground5.gif);
+    background-size: cover;
+}
+#AboutCard
+{
+    background-image: url(../Assets/Images/FightingGameBackgrounds/FightingGameBackground3.png);
+    background-size: cover;
+}
+#AboutCard:hover
+{
+    background-image: url(../Assets/GIFs/FightingGameBackground3.gif);
+    background-size: cover;
+}
+#GameDesignDocumentCard
+{
+    background-image: url(../Assets/Images/Analysis/GameDesignDocumentBackground.png);
+    background-size: cover;
+}
+#GameDesignDocumentCard:hover
+{
+    background-image: url(../Assets/GIFs/GameDesignDocumentBackground.gif);
+    background-size: cover;
+}
+#CardGameCard
+{
+    background-image: url(../Assets/Images/Analysis/CardGameBackground.png);
+    background-size:contain;
+}
+#CardGameCard:hover
+{
+    background-image: url(../Assets/GIFs/CardGameBackground.gif);
+    background-size:contain;
+}
+#BoardGameCard
+{
+    background-image: url(../Assets/Images/Analysis/BoardGameBackground.jpg);
+    background-size: cover;
+}
+#BoardGameCard:hover
+{
+    background-image: url(../Assets/GIFs/BoardGameBackground.gif);
+    background-size: cover;
+}
+#EarlyPrototypeCard
+{
+    background-image: url(../Assets/Images/Analysis/Prototype.png);
+    background-size: cover;
+}
+#EsportsCard
+{
+    background-image: url(../Assets/Images/Analysis/EsportsBackground.png);
+    background-size: cover;
+}
+#EsportsCard:hover
+{
+    background-image: url(../Assets/GIFs/EsportsBackground.gif);
+    background-size: cover;
+}
+#StateofGamingCard
+{
+    background-image: url(../Assets/Images/Analysis/StateofGamingIndustry.png);
+    background-size: cover;
+}
+#StateofGamingCard:hover
+{
+    background-image: url(../Assets/GIFs/StateofGamingIndustry.gif);
+    background-size: cover;
+}
